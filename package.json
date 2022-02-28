@@ -11,16 +11,17 @@
 	"devDependencies": {
 		"@sveltejs/adapter-netlify": "^1.0.0-next.49",
 		"@sveltejs/adapter-static": "^1.0.0-next.28",
-		"@sveltejs/kit": "next",
 		"autoprefixer": "^10.4.2",
-		"eslint": "^8.10.0",
-		"eslint-config-prettier": "^8.4.0",
-		"eslint-plugin-svelte3": "^3.4.1",
 		"postcss-cli": "^9.1.0",
-		"prettier": "^2.5.1",
-		"prettier-plugin-svelte": "^2.6.0",
-		"svelte": "^3.46.4",
-		"tailwindcss": "^3.0.23"
+		"tailwindcss": "^3.0.23",
+		"@sveltejs/adapter-auto": "next",
+    	"@sveltejs/kit": "next",
+    	"eslint": "^7.32.0",
+    	"eslint-config-prettier": "^8.3.0",
+    	"eslint-plugin-svelte3": "^3.2.1",
+    	"prettier": "^2.5.1",
+    	"prettier-plugin-svelte": "^2.5.0",
+    	"svelte": "^3.44.0"
 	},
 	"type": "module",
 	"dependencies": {
