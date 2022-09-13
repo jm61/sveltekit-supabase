@@ -3,14 +3,12 @@ const config = {
 
 	theme: {
 		fontFamily: {
-				sans: ['Josefin Sans','sans-serif']
-			},
-		extend: {
-			
-		}
+			sans: ['Josefin Sans', 'sans-serif']
+		},
+		extend: {}
 	},
 
 	plugins: []
-};
+}
 
-module.exports = config;
+module.exports = config

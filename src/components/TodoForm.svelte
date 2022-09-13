@@ -1,15 +1,14 @@
 <script>
-	import { addTodo } from '../stores/todoStore.js';
-	import { user } from '../stores/authStore.js';
-	let todo = '';
-	let category = '';
+	import { addTodo } from '../stores/todoStore.js'
+	import { user } from '../stores/authStore.js'
+	let todo = ''
+	let category = ''
 
 	const handleSubmit = () => {
-		console.log($user);
 		addTodo(todo, category, $user.id)
 		todo = ''
-        category=''
-	};
+		category = ''
+	}
 </script>
 
 <form class="form my-6" on:submit|preventDefault={handleSubmit}>
